@@ -1,0 +1,29 @@
+.testimonials-block{
+    max-width: 1240px;
+}
+
+.testimonials-item {
+    color: var(--primary-text-color);
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45; /* 145.455% */
+    letter-spacing: 0.03em;
+}
+
+.testimonials-staff {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+}
+
+.staff-block {
+    max-width: 396px;
+}
+
+.staff-block-text {
+    max-width: 360px;
+}
