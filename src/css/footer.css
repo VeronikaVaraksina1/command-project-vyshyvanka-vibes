@@ -1,21 +1,6 @@
 .footer {
   border-top: 1px solid rgba(252, 249, 249, 0.10);
-  padding: 40px 0 292px;
-  background-image: url('/../src/img/footer-img/ornament-mobile.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 375px;
-}
-
-.footer-nav-list {
-  display: inline-grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 40px; 
-  row-gap: 25px;
-}
-
-.footer-nav-list-item {
-  width: 100%; /* Занимаем всю доступную ширину колонки */
+  padding: 40px 0;
 }
 
 .footer-nav-list-item-link{
@@ -44,21 +29,95 @@ color: var(--accent-text-color)
 .footer-slogan-part{
   color: var(--accent-text-color);
 }
-@media screen and (min-resolution:192dpi) and (max-width:767px),
-screen and (min-resolution:2dppx) and (max-width:767px),
-screen and (min-device-pixel-ratio: 2) and (max-width:767px){
+@media screen and (max-width:767.5px) {
+  .footer{
+    background-image: url('/../src/img/footer-img/ornament-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 375px;
+    padding-bottom: 292px;
+  }
+  .footer-nav-list {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px; 
+    row-gap: 25px;
+  }
+  .footer-nav-list-item {
+    width: 100%; /* Занимаем всю доступную ширину колонки */
+  }
+}
+@media screen and (min-resolution:192dpi) and (max-width:767.5px),
+screen and (min-resolution:2dppx) and (max-width:767.5px),
+screen and (min-device-pixel-ratio: 2) and (max-width:767.5px){
   .footer{
     background-image: url('/../src/img/footer-img/ornament-mobile@2x.png');
 
   }
 }
 
-@media screen and (min-width:768px) {
-  
+@media screen and (min-width:767.51px) {
+  .footer{
+    background-image: url('/../src/img/footer-img/ornament-tablet.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 174px;
+  }
+  .footer-slogan{
+    max-width: 521px;
+    font-size: 54px;
+    line-height: 1.18519;
+  }
+  .footer-nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .footer-nav{
+    margin-bottom: 80px;
+  }
+}
+@media screen and (min-resolution:192dpi) and (min-width:767.51px) and (max-width:1279px),
+screen and (min-resolution:2dppx) and (min-width:767.51px) and (max-width:1279px),
+screen and (min-device-pixel-ratio: 2) and (min-width:767.51px) and (max-width:1279px){
+  .footer{
+    background-image: url('/../src/img/footer-img/ornament-tablet@2x.png');
+    
+  }
 }
 @media screen and (min-width:1280px) {
-  
+  .footer{
+    background-image: url('/../src/img/footer-img/ornament-desktop.png');
+    background-size: 336px;
+  }
+  .footer-slogan{
+    max-width: 754px;
+    font-size: 64px;
+    line-height: 1.15625;
+  }
+  .footer-nav{
+    margin-bottom: 117px;
+  }
+}
+@media screen and (min-resolution:192dpi) and (min-width:1280px) and (max-width:1439px),
+screen and (min-resolution:2dppx) and (min-width:1280px) and (max-width:1439px),
+screen and (min-device-pixel-ratio: 2) and (min-width:1280px) and (max-width:1439px){
+  .footer{
+    background-image: url('/../src/img/footer-img/ornament-desktop@2x.png');
+
+  }
 }
 @media screen and (min-width:1440px) {
-  
+  .footer{
+    background-image: url('/../src/img/footer-img/ornament-desktop-more.png');
+    background-size: 496px;
+  }
+}
+@media screen and (min-resolution:192dpi) and (min-width:1440px) ,
+screen and (min-resolution:2dppx) and (min-width:1440px) ,
+screen and (min-device-pixel-ratio: 2) and (min-width:1440px) {
+  .footer{
+    background-image: url('/../src/img/footer-img/ornament-desktop-more@2x.png');
+
+  }
 }
