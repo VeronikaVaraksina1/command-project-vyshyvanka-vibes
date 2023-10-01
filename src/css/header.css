@@ -71,7 +71,7 @@
 .close-icon::before {
   width: 24px;
   height: 2px;
-  background-color: #1c2225;
+  background-color: var(--secondary-text-color);
 }
 
 .close-icon::after,
@@ -105,7 +105,7 @@
   font-size: 12px;
   line-height: 1.17;
   font-style: normal;
-  color: #1c2225;
+  color: var(--secondary-text-color);
 }
 
 .burger-nav-list {
@@ -118,7 +118,7 @@
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.29;
-  color: #1c2225;
+  color: var(--secondary-text-color);
 }
 .burger-menu {
   display: flex;
