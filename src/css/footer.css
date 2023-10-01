@@ -2,7 +2,9 @@
   border-top: 1px solid rgba(252, 249, 249, 0.10);
   padding: 40px 0;
 }
-
+.footer .container{
+  position: relative;
+}
 .footer-nav-list-item-link{
 font-size: 14px;
 line-height: 1.29; 
@@ -51,14 +53,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width:767.5px){
     background-image: url('/../src/img/footer/ornament-mobile@2x.png');
   }
 }
-
-@media screen and (min-width:767.51px) {
-  .footer{
-    background-image: url('/../src/img/footer/ornament-tablet.png');
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 174px;
-  }
+@media screen and (min-width:768px){
   .footer-slogan{
     max-width: 521px;
     font-size: 54px;
@@ -73,19 +68,25 @@ screen and (min-device-pixel-ratio: 2) and (max-width:767.5px){
     margin-bottom: 80px;
   }
 }
-@media screen and (min-resolution:192dpi) and (min-width:767.51px) and (max-width:1279px),
-screen and (min-resolution:2dppx) and (min-width:767.51px) and (max-width:1279px),
-screen and (min-device-pixel-ratio: 2) and (min-width:767.51px) and (max-width:1279px){
+@media screen and (min-width:767.51px) and (max-width:1279.5px) {
+  .footer{
+    background-image: url('/../src/img/footer/ornament-tablet.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 174px;
+  }
+
+ 
+}
+@media screen and (min-resolution:192dpi) and (min-width:767.51px) and (max-width:1279.5px),
+screen and (min-resolution:2dppx) and (min-width:767.51px) and (max-width:1279.5px),
+screen and (min-device-pixel-ratio: 2) and (min-width:767.51px) and (max-width:1279.5px){
   .footer{
     background-image: url('/../src/img/footer/ornament-tablet@2x.png');
     
   }
 }
-@media screen and (min-width:1280px) {
-  .footer{
-    background-image: url('/../src/img/footer/ornament-desktop.png');
-    background-size: 336px;
-  }
+@media screen and (min-width:1280px){
   .footer-slogan{
     max-width: 754px;
     font-size: 64px;
@@ -95,24 +96,41 @@ screen and (min-device-pixel-ratio: 2) and (min-width:767.51px) and (max-width:1
     margin-bottom: 117px;
   }
 }
-@media screen and (min-resolution:192dpi) and (min-width:1280px) and (max-width:1439px),
-screen and (min-resolution:2dppx) and (min-width:1280px) and (max-width:1439px),
-screen and (min-device-pixel-ratio: 2) and (min-width:1280px) and (max-width:1439px){
+@media screen and (min-width:1279.51px)and (max-width:1439.5px) {
+  .footer{
+    background-image: url('/../src/img/footer/ornament-desktop.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 336px;
+  }
+
+}
+@media screen and (min-resolution:192dpi) and (min-width:1279.51px) and (max-width:1439.5px),
+screen and (min-resolution:2dppx) and (min-width:1279.51px) and (max-width:1439.5px),
+screen and (min-device-pixel-ratio: 2) and (min-width:1279.51px) and (max-width:1439.5px){
   .footer{
     background-image: url('/../src/img/footer/ornament-desktop@2x.png');
 
   }
 }
 @media screen and (min-width:1440px) {
-  .footer{
+  .footer-ornament{
+    position: absolute;
     background-image: url('/../src/img/footer/ornament-desktop-more.png');
     background-size: 496px;
+    top: -40px;
+    right: -100px;
+    height: calc(100% + 80px);
+    background-repeat: no-repeat;
+    width: 496px;
   }
+
 }
-@media screen and (min-resolution:192dpi) and (min-width:1440px) ,
-screen and (min-resolution:2dppx) and (min-width:1440px) ,
-screen and (min-device-pixel-ratio: 2) and (min-width:1440px) {
-  .footer{
+@media screen and (min-resolution:192dpi) and (min-width:1439.51px) ,
+screen and (min-resolution:2dppx) and (min-width:1439.51px) ,
+screen and (min-device-pixel-ratio: 2) and (min-width:1439.51px) {
+  
+  .footer-ornament{
     background-image: url('/../src/img/footer/ornament-desktop-more@2x.png');
 
   }
