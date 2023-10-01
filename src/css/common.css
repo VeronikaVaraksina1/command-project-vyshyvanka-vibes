@@ -5,12 +5,19 @@ body {
 }
 
 .container {
-  max-width: 335px;
-  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .section {
   padding: 40px 0;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 335px;
+    padding: 0;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
