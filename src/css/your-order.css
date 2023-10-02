@@ -27,7 +27,7 @@
     color: var(--primary-text-color);
     font-size: 32px;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1.37;
     letter-spacing: -0.03em;
     text-align: left;
     margin-bottom: 40px;   
@@ -80,7 +80,7 @@
     height: 196px;
     resize: none;
     margin-bottom: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 14px;
 }
 
 .order-form-send {
