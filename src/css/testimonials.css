@@ -14,13 +14,9 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1,38;
-    letter-spacing: 0,03em;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
     margin-bottom: 64px;
-}
-
-.testimonials-staff {
-    display: flex;
 }
 
 .staff-block {
@@ -41,7 +37,6 @@
 .staff-title {
     text-align: center;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 1.5; 
     margin-bottom: 8px;
@@ -51,7 +46,6 @@
     color: rgba(252, 249, 249, 0.40);
     text-align: center;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -77,6 +71,7 @@
     }
 
     .testimonials-staff {
+        display: flex;
         gap: 32px;
     }
 
