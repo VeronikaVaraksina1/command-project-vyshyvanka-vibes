@@ -1,9 +1,9 @@
 
-.testimonials_section{
-    padding-top: 80px;
+.testimonials-section{
+    padding-bottom: 80px;
 }
 
-.image_icon {
+.image-icon {
     position: absolute;
     top: -24px;
     left: 50%;
@@ -57,14 +57,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .testimonials_section{
-        padding-top: 100px;
+    .testimonials-section{
+        padding-bottom: 100px;
     }
 
     .testimonials-item {
         font-size: 44px;
         line-height: 1.45; 
-        letter-spacing: 0.03em;
+        letter-spacing: -0.03em;
     }
 
     .block-non {
@@ -87,8 +87,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .testimonials_section{
-        padding-top: 150px;
+    .testimonials-section{
+        padding-bottom: 150px;
     }
 
     .staff-block-non {
