@@ -1,0 +1,487 @@
+/* ======== MOBILE 320px ======== */
+
+@media screen and (min-width: 320px) {
+    .hero-section {
+        flex-shrink: 0;
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+
+    .hero-container {
+        max-width: 320px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-title-container {
+        margin-top: 0px;
+    }
+
+    .hero-title {
+        max-width: 335px;
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 54px; 
+        letter-spacing: -1.32px;
+    }
+    
+    .yellow-word {
+        color: var(--white, #ECD979);
+        font-family: Manrope;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 54px;
+        letter-spacing: -1.32px;
+    }
+
+    .icon-star-container {
+        display: none;
+    }
+
+    .hero-ukraine-map {
+        display: none;
+    }
+}
+
+
+/* ======== MOBILE 375px ======== */
+
+ @media screen and (min-width: 375px) {
+    .hero-section {
+        flex-shrink: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero-container {
+        max-width: 335px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-title-container {
+        margin-top: 0px;
+    }
+    
+    .hero-title {
+        max-width: 335px;
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 54px; 
+        letter-spacing: -1.32px;
+    }
+    
+    .yellow-word {
+        color: var(--white, #ECD979);
+        font-family: Manrope;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 54px;
+        letter-spacing: -1.32px;
+    }
+
+    .hero-order-service-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 36px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.1);
+        background-color: #1c2225;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-style: normal;
+        line-height: 1.37;
+        letter-spacing: -0.04em;
+        margin: 20px auto 40px;
+        width: 155px;
+    }
+
+    .hero-order-service-button:hover,
+    .hero-order-service-button:focus,
+    .hero-order-service-button:active {
+        border-radius: 15px;
+        border: 1px solid var(--yellow, #ECD979);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .button-span {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.56px;
+        text-transform: uppercase;
+    }
+    
+    .icon-arrow {
+        flex-shrink: 0;
+        fill: var(--yellow, #ECD979);
+    }
+
+    .icon-star-container {
+        display: none;
+    }
+
+    .hero-ukraine-map {
+        display: none;
+    }
+}  
+
+
+
+/* ======== TABLET 768px ======== */
+
+@media screen and (min-width: 768px) {
+    .hero-section {
+        flex-shrink: 0;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    
+    .hero-container {
+        max-width: 704px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }   
+    
+    .hero-girl {
+        border-radius: 4px;
+        width: 413px;
+    }
+    
+    .hero-title-container {
+        margin-top: 0px;
+    }
+    
+    .hero-title {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px; 
+        letter-spacing: -1.62px;
+        max-width: 540px;
+        margin-top: 26px;
+    }
+    
+    .yellow-word {
+        color: var(--white, #ECD979);
+        font-family: Manrope;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.03em;
+        font-size: 44px;
+        line-height: 1.23;
+    }
+    
+    .hero-order-service-button {
+        display: flex;
+        width: 168px;
+        padding: 14px 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        background-color: #1c2225;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        margin-left: 141px;
+    }
+    
+    .hero-order-service-button:hover,
+    .hero-order-service-button:focus,
+    .hero-order-service-button:active {
+        border-radius: 15px;
+        border: 1px solid var(--yellow, #ECD979);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .button-span {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.64px;
+        text-transform: uppercase;
+    }
+    
+    .icon-arrow {
+        flex-shrink: 0;
+        fill: var(--yellow, #ECD979);
+    }
+    
+    .icon-star-container {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        max-width: 115px;
+    }
+    
+    .icon-star {
+        width: 52px;
+        height: 51px;
+        fill: var(--yellow);
+        display: block;
+        margin: 0 auto 16px;
+    }
+    
+    .icon-star-text {
+        width: 115px;
+        color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.64px;
+    }
+    
+    .hero-ukraine-map {
+        width: 139px;
+        flex-shrink: 0; 
+        display: block;
+        position: absolute;
+        bottom: -100px;
+        right: 0;
+    }
+}  
+
+/* ======== DESKTOP 1280px ======== */
+
+@media screen and (min-width: 1280px) { 
+    .hero-section {
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        column-gap: 40px;
+        position: relative;
+        max-width: 1080px;
+    }    
+
+    .hero-girl {
+        width: 392px;
+        border-radius: 4px;
+    }
+
+    .hero-title-container {
+        margin-top: 66px;
+    }
+
+    .hero-title {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px; 
+        letter-spacing: -1.62px;
+        max-width: 518px;
+        margin: 0;
+    }
+    
+    .yellow-word {
+        color: var(--white, #ECD979);
+        font-family: Manrope;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: -1.62px;
+        max-width: 518px;
+    }
+
+    .hero-order-service-button {
+        display: flex;
+        padding: 14px 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        background-color: #1c2225;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        margin-left: 141px;
+        width: 168px;
+    }
+    
+    .hero-order-service-button:hover,
+    .hero-order-service-button:focus,
+    .hero-order-service-button:active {
+        border-radius: 15px;
+        border: 1px solid var(--yellow, #ECD979);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .button-span {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.64px;
+        text-transform: uppercase;
+    }
+} 
+
+
+/* ======== DESKTOP 1440px ======== */
+@media screen and (min-width: 1440px) {
+    .hero-section {
+        flex-shrink: 0;
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        column-gap: 40px;
+        position: relative;
+        max-width: 1240px;
+    }    
+
+    .hero-girl {
+        border-radius: 4px;
+    }
+
+    .hero-title-container {
+        margin-top: 66px;
+    }
+
+    .hero-title {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 1.16em; 
+        letter-spacing: -1.92px;
+        max-width: 630px;
+        margin: 0;
+    }
+
+    .yellow-word {
+        color: var(--white, #ECD979);
+        font-family: Manrope;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: -1.92px;
+    }
+
+    .hero-order-service-button {
+        display: flex;
+        width: 168px;
+        padding: 14px 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        background-color: #1c2225;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        margin-left: 141px;
+    }
+
+    .hero-order-service-button:hover,
+    .hero-order-service-button:focus,
+    .hero-order-service-button:active {
+        border-radius: 15px;
+        border: 1px solid var(--yellow, #ECD979);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .button-span {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.64px;
+        text-transform: uppercase;
+    }
+
+    .icon-arrow {
+        flex-shrink: 0;
+        fill: var(--yellow, #ECD979);
+    }
+
+    .icon-star-container {
+        display: block;
+        position: absolute;
+        top: -26px;
+        right: 0;
+        top: 66px;
+    }
+
+    .icon-star {
+        width: 52px;
+        height: 51px;
+        fill: var(--yellow);
+        display: block;
+        margin: 0 auto 16px;
+    }
+
+    .icon-star-text {
+        width: 115px;
+        color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.64px;
+    }
+
+    .hero-ukraine-map {
+        width: 139px;
+        flex-shrink: 0; 
+        display: block;
+        position: absolute;
+        bottom: -100px;
+        right: 0;
+    }
+}
