@@ -89,14 +89,11 @@
     cursor: pointer;
     color: var(--primary-text-color);
     background-color: transparent;
-    font-style: normal;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    max-width: 145px;
-    border: none;
     padding: 14px 36px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
@@ -120,6 +117,9 @@
         background-image: url(../img/your-order/background-image/tablet-girl.jpg);
         max-width: 768px;
         height: 776px;
+    }
+
+    .your-order-form {
         margin-bottom: 100px;
     }
 
@@ -175,6 +175,7 @@
       width: 323px;
       height: 483px;
       background-image: url(../img/your-order/ornamental-image/ornamental-image.jpg);
+      background-repeat: no-repeat;
   }
 }
 
