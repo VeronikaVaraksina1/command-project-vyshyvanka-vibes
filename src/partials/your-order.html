@@ -8,53 +8,46 @@
       </h2>
       <form class="your-order-form" name="Order form">
         <!-- FORM NAME -->
-        <div class="order-form-container">
-          <label class="order-form-label" for="user-name">
-            <input
-              class="order-form-input"
-              type="text"
-              id="user-name"
-              name="user-name"
-              pattern="[a-zA-Za]"
-              title="Vladyslav"
-              placeholder="Enter your full name"
-              required
-            />
-          </label>
-        </div>
+        <label class="order-form-label" for="user-name">
+          <input
+            class="order-form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            pattern="[a-zA-Za]"
+            title="Vladyslav"
+            placeholder="Enter your full name"
+            required
+          />
+        </label>
         <!-- FORM EMAIL -->
-        <div class="order-form-container">
-          <label class="order-form-label" for="user-email">
-            <input
-              class="order-form-input"
-              type="email"
-              id="user-email"
-              name="user-email"
-              placeholder="Enter your email"
-              required
-            />
-          </label>
-        </div>
+        <label class="order-form-label" for="user-email">
+          <input
+            class="order-form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
         <!-- FORM-COMMENTS -->
-        <div class="order-form-container-area">
-          <label class="order-form-label" for="user-comment">
-            <textarea
-              class="order-form-comments"
-              name="user-comment"
-              id="user-comment"
-              placeholder="Comments"
-              required
-            ></textarea>
-          </label>
-        </div>
+        <label class="order-form-label" for="user-comment">
+          <textarea
+            class="order-form-comments"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comments"
+            required
+          ></textarea>
+        </label>
+        <button class="order-form-send" type="submit">
+          Send
+          <svg class="order-svg-icon" width="26" height="15">
+            <use href="../img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
       </form>
-
-      <button class="order-form-send" type="submit">
-        Send
-        <svg class="order-svg-icon" width="26" height="15">
-          <use href="../img/icons.svg#icon-arrow"></use>
-        </svg>
-      </button>
     </div>
     <img
       class="your-goods-image"
