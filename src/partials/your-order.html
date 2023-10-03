@@ -1,4 +1,4 @@
-<section class="your-order section">
+<section id="your-order" class="your-order section">
   <div class="order-image"></div>
   <div class="container">
     <div>
@@ -7,7 +7,6 @@
         Personalized approach and quality of service
       </h2>
       <form class="your-order-form" name="Order form">
-        <!-- FORM NAME -->
         <label class="order-form-label" for="user-name">
           <input
             class="order-form-input"
@@ -20,7 +19,6 @@
             required
           />
         </label>
-        <!-- FORM EMAIL -->
         <label class="order-form-label" for="user-email">
           <input
             class="order-form-input"
@@ -31,7 +29,6 @@
             required
           />
         </label>
-        <!-- FORM-COMMENTS -->
         <label class="order-form-label" for="user-comment">
           <textarea
             class="order-form-comments"
@@ -55,12 +52,13 @@
         srcset="
           ./img/your-order/content-image/tablet-shirt.jpg     638w,
           ./img/your-order/content-image/tablet-shirt@2x.jpg 1276w,
-          ./img/your-order/content-image/desktop-shirt.jpg    542w,
+          ./img/your-order/content-image/desktop-shirt.jpg    524w,
           ./img/your-order/content-image/desktop-shirt.jpg   1048w
         "
-        sizes="(min-width:1440px) 524px, (min-width:1280px) 524px, (min-width:768px) 638px"
+        sizes="(min-width:768px) 638px, (min-width:1440px) 524px, (min-width:1280px) 524px"
         src="./img/your-order/content-image/tablet-shirt.jpg"
         alt="Girl shirt"
+        loading="lazy"
       />
       <div class="ornamental-image"></div>
     </div>
