@@ -188,7 +188,10 @@
     justify-content: space-between;
     gap: 50px;
   }
-
+  .order-form-send,
+  .your-order-form {
+    margin-bottom: 0;
+  }
   .ornamental-image {
     top: 156px;
     left: -100px;
