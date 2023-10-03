@@ -1,0 +1,135 @@
+.section-collection {
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    top: 300px;
+    left: -2px;
+    width: 80px;
+    height: 177px;
+    background-image: url(../img/mobile/elements.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 375px),
+    screen and (min-resolution: 2dppx) and (min-width: 375px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
+        .background-image {
+            background-image: url(../img/mobile/elements@2x.png);
+        }
+    }
+
+.collection-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.collection-list-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.collection-card {
+    border-radius: 4px;
+    z-index: 999999;
+}
+
+
+.card-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .background-image {
+        top: 200px;
+        left: -3px;
+        width: 125px;
+        height: 300px;
+        background-image: url(../img/tablet/elements.png);
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+        .background-image {
+            background-image: url(../img/tablet/elements@2x.png);
+        }
+    }
+  
+    .collection-list-card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+       
+    }
+
+    .collection-card {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .background-image {
+        background-image: url(../img/desktop1280/elements-2.png);
+    }
+
+
+
+        .collection-list-card {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 40px 20px;
+        }
+        .collection-card {
+            width: calc((100% - 40px) / 3);
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .background-image {
+            background-image: url(../img/desktop1440/elements-2.png);
+        }
+    }
+    @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+        .background-image {
+            background-image: url(../img/desktop1440/elements@2x-2.png);
+        }
+    }
