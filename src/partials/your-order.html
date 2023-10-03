@@ -1,3 +1,67 @@
-<section class="section">
-  <div class="container"></div>
+<section class="your-order section">
+  <div class="order-image"></div>
+  <div class="container">
+    <div>
+      <h2 class="your-order-title">
+        <span class="your-order-title-text">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="your-order-form" name="Order form">
+        <!-- FORM NAME -->
+        <label class="order-form-label" for="user-name">
+          <input
+            class="order-form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            pattern="[a-zA-Za]"
+            title="Vladyslav"
+            placeholder="Enter your full name"
+            required
+          />
+        </label>
+        <!-- FORM EMAIL -->
+        <label class="order-form-label" for="user-email">
+          <input
+            class="order-form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <!-- FORM-COMMENTS -->
+        <label class="order-form-label" for="user-comment">
+          <textarea
+            class="order-form-comments"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comments"
+            required
+          ></textarea></label>
+        <button class="order-form-send" type="submit">
+          Send
+          <svg class="order-svg-icon" width="26" height="15">
+            <use href="../img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div>
+      <img
+        class="your-goods-image"
+        srcset="
+          ./img/your-order/content-image/tablet-shirt.jpg     638w,
+          ./img/your-order/content-image/tablet-shirt@2x.jpg 1276w,
+          ./img/your-order/content-image/desktop-shirt.jpg    542w,
+          ./img/your-order/content-image/desktop-shirt.jpg   1048w
+        "
+        sizes="(min-width:1440px) 524px, (min-width:1280px) 524px, (min-width:768px) 638px"
+        src="../img/your-order/content-image/tablet-shirt.jpg"
+        alt="Girl shirt"
+      />
+      <div class="ornamental-image"></div>
+    </div>
+  </div>
 </section>
