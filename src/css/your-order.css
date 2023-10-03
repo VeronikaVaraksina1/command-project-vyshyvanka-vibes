@@ -1,7 +1,4 @@
-.your-order {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
+/* */
 
 .order-image {
     background-image: url(../img/your-order/background-image/mobile-girl.jpg);
@@ -39,7 +36,6 @@
 
 .order-form-input,
 .order-form-comments {
-    display: block;
     padding: 14px 16px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 15px;
@@ -84,7 +80,7 @@
 }
 
 .order-form-send {
-    display: flex;
+    display: block;
     justify-content: center;
     cursor: pointer;
     color: var(--primary-text-color);
@@ -123,11 +119,6 @@
         margin-bottom: 100px;
     }
 
-    .your-order {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
     .your-order .container {
         position: relative;
     }
@@ -162,24 +153,23 @@
         margin-bottom: 100px;
   }
 
-  .your-goods-image {
-    display: block;
-    max-width: 524px;
-    height: 521px;
+    .your-goods-image {
+        display: block;
+        border-radius: 4px;
   }
 
   .ornamental-image {
       position: absolute;
-      left: -32px;
+      left: -98px;
       bottom: -79px;
-      width: 323px;
-      height: 483px;
+      width: 324px;
+      height: 484px;
       background-image: url(../img/your-order/ornamental-image/ornamental-image.jpg);
       background-repeat: no-repeat;
   }
 }
 
-  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
       .order-image {
@@ -188,8 +178,9 @@
 
       .ornamental-image {
         background-image: url(../img/your-order/ornamental-image/ornamental-image@2x.png);
+    
     }
-  }
+}
 
 @media screen and (min-width: 1280px) {
     .order-image {
@@ -205,17 +196,15 @@
         gap: 50px;
     }
 
-    .your-order {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
+    .your-goods-image {
+        max-width: 524px;
+        height: 521px;
 
-    .order-form-send {
-        margin-left: 0;
-        margin-bottom: 0;
+
     }
 
     .ornamental-image {
+        top: 156px;
         left: -100px;
         bottom: -119px;
         width: 524px;
@@ -238,10 +227,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     }
 
     .ornamental-image {
-    bottom: -119px;
-    width: 325px;
-    height: 484px;
-    background-image: url(../img/your-order/ornamental-image/ornamental-image.png);
+        bottom: -119px;
+        width: 325px;
+        height: 484px;
+        background-image: url(../img/your-order/ornamental-image/ornamental-image.png);
     }
 
     .order-image {
