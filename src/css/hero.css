@@ -3,8 +3,6 @@
 @media screen and (min-width: 320px) {
     .hero-section {
         flex-shrink: 0;
-        padding-top: 40px;
-        padding-bottom: 40px;
     }
 
     .hero-container {
@@ -22,23 +20,16 @@
 
     .hero-title {
         max-width: 320px;
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 44px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 54px; 
-        letter-spacing: -1.32px;
+        line-height: 1.23em; 
+        letter-spacing: -0.03em;
     }
     
     .yellow-word {
-        color: var(--white, #ECD979);
-        font-family: Manrope;
+        color: var(--accent-text-color);
         font-size: 44px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 54px;
-        letter-spacing: -1.32px;
     }
 
     .hero-order-service-button {
@@ -49,11 +40,10 @@
         padding: 14px 36px;
         border-radius: 15px;
         border: 1px solid rgba(252, 249, 249, 0.1);
-        background-color: #1c2225;
+        background-color: var(--secondary-text-color);
         font-size: 14px;
         font-weight: 600;
         text-transform: uppercase;
-        font-style: normal;
         line-height: 1.37;
         letter-spacing: -0.04em;
         margin: 20px auto 40px;
@@ -64,15 +54,13 @@
     .hero-order-service-button:focus,
     .hero-order-service-button:active {
         border-radius: 15px;
-        border: 1px solid var(--yellow, #ECD979);
+        border: 1px solid var(--accent-text-color);
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .button-span {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 14px;
-        font-style: normal;
         font-weight: 600;
         line-height: normal;
         letter-spacing: -0.56px;
@@ -81,7 +69,7 @@
     
     .icon-arrow {
         flex-shrink: 0;
-        fill: var(--yellow, #ECD979);
+        fill: var(--accent-text-color);
     }
 
     .icon-star-container {
@@ -97,12 +85,6 @@
 /* ======== MOBILE 375px ======== */
 
  @media screen and (min-width: 375px) {
-    .hero-section {
-        flex-shrink: 0;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
     .hero-container {
         max-width: 335px;
         padding-left: 0;
@@ -118,26 +100,20 @@
     
     .hero-title {
         max-width: 335px;
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 44px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 54px; 
-        letter-spacing: -1.32px;
+        line-height: 1.23em; 
+        letter-spacing: -0.03em;
     }
     
     .yellow-word {
-        color: var(--white, #ECD979);
-        font-family: Manrope;
+        color: var(--accent-text-color);
         font-size: 44px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 54px;
-        letter-spacing: -1.32px;
     }
 
     .hero-order-service-button {
+        width: 155px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -145,39 +121,35 @@
         padding: 14px 36px;
         border-radius: 15px;
         border: 1px solid rgba(252, 249, 249, 0.1);
-        background-color: #1c2225;
+        background-color: var(--secondary-text-color);
         font-size: 14px;
         font-weight: 600;
         text-transform: uppercase;
-        font-style: normal;
-        line-height: 1.37;
+        line-height: 1.37px;
         letter-spacing: -0.04em;
         margin: 20px auto 40px;
-        width: 155px;
     }
 
     .hero-order-service-button:hover,
     .hero-order-service-button:focus,
     .hero-order-service-button:active {
         border-radius: 15px;
-        border: 1px solid var(--yellow, #ECD979);
+        border: 1px solid var(--accent-text-color);
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .button-span {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 14px;
-        font-style: normal;
         font-weight: 600;
         line-height: normal;
-        letter-spacing: -0.56px;
+        letter-spacing: -0.04em;
         text-transform: uppercase;
     }
     
     .icon-arrow {
         flex-shrink: 0;
-        fill: var(--yellow, #ECD979);
+        fill: var(--accent-text-color);
     }
 
     .icon-star-container {
@@ -195,7 +167,6 @@
 
 @media screen and (min-width: 768px) {
     .hero-section {
-        flex-shrink: 0;
         padding-top: 60px;
         padding-bottom: 50px;
     }
@@ -220,26 +191,19 @@
     }
     
     .hero-title {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 54px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 64px; 
-        letter-spacing: -1.62px;
+        line-height: 1.19em; 
+        letter-spacing: -0.03em;
         max-width: 540px;
         margin-top: 26px;
     }
     
     .yellow-word {
-        color: var(--white, #ECD979);
-        font-family: Manrope;
+        color: var(--accent-text-color);
         font-size: 54px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.03em;
-        font-size: 44px;
-        line-height: 1.23;
+        max-width: 549px;
     }
     
     .hero-order-service-button {
@@ -251,7 +215,7 @@
         gap: 10px;
         border-radius: 15px;
         border: 1px solid rgba(252, 249, 249, 0.10);
-        background-color: #1c2225;
+        background-color: var(--secondary-text-color);
         margin-top: 40px;
         margin-right: 0px;
         margin-bottom: 40px;
@@ -262,15 +226,13 @@
     .hero-order-service-button:focus,
     .hero-order-service-button:active {
         border-radius: 15px;
-        border: 1px solid var(--yellow, #ECD979);
+        border: 1px solid var(--accent-text-color);
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .button-span {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 16px;
-        font-style: normal;
         font-weight: 600;
         line-height: normal;
         letter-spacing: -0.64px;
@@ -279,7 +241,7 @@
     
     .icon-arrow {
         flex-shrink: 0;
-        fill: var(--yellow, #ECD979);
+        fill: var(--accent-text-color);
     }
     
     .icon-star-container {
@@ -293,7 +255,7 @@
     .icon-star {
         width: 52px;
         height: 51px;
-        fill: var(--yellow);
+        fill: var(--accent-text-color);
         display: block;
         margin: 0 auto 16px;
     }
@@ -302,9 +264,7 @@
         width: 115px;
         color: rgba(252, 249, 249, 0.40);
         text-align: center;
-        font-family: Manrope;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: normal;
         letter-spacing: -0.64px;
@@ -347,25 +307,17 @@
     }
 
     .hero-title {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 54px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 64px; 
-        letter-spacing: -1.62px;
+        line-height: 1.19em; 
+        letter-spacing: -0.03em;
         max-width: 518px;
         margin: 0;
     }
     
     .yellow-word {
-        color: var(--white, #ECD979);
-        font-family: Manrope;
-        font-size: 54px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 64px;
-        letter-spacing: -1.62px;
+        color: var(--accent-text-color);
         max-width: 518px;
     }
 
@@ -377,7 +329,7 @@
         gap: 10px;
         border-radius: 15px;
         border: 1px solid rgba(252, 249, 249, 0.10);
-        background-color: #1c2225;
+        background-color: var(--secondary-text-color);
         margin-top: 40px;
         margin-right: 0px;
         margin-bottom: 40px;
@@ -389,18 +341,16 @@
     .hero-order-service-button:focus,
     .hero-order-service-button:active {
         border-radius: 15px;
-        border: 1px solid var(--yellow, #ECD979);
+        border: 1px solid var(--accent-text-color);
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .button-span {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 16px;
-        font-style: normal;
         font-weight: 600;
         line-height: normal;
-        letter-spacing: -0.64px;
+        letter-spacing: -0.04em;
         text-transform: uppercase;
     }
 } 
@@ -432,23 +382,21 @@
     }
 
     .hero-title {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 64px;
         font-weight: 400;
         line-height: 1.16em; 
-        letter-spacing: -1.92px;
+        letter-spacing: -0.03em;
         max-width: 630px;
         margin: 0;
     }
 
     .yellow-word {
-        color: var(--white, #ECD979);
-        font-family: Manrope;
+        color: var(--accent-text-color);
         font-size: 64px;
         font-weight: 400;
-        line-height: 74px;
-        letter-spacing: -1.92px;
+        line-height: 1.15em;
+        letter-spacing: -0.03em;
     }
 
     .hero-order-service-button {
@@ -460,7 +408,7 @@
         gap: 10px;
         border-radius: 15px;
         border: 1px solid rgba(252, 249, 249, 0.10);
-        background-color: #1c2225;
+        background-color: var(--secondary-text-color);
         margin-top: 40px;
         margin-right: 0px;
         margin-bottom: 40px;
@@ -471,24 +419,22 @@
     .hero-order-service-button:focus,
     .hero-order-service-button:active {
         border-radius: 15px;
-        border: 1px solid var(--yellow, #ECD979);
+        border: 1px solid var(--accent-text-color);
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .button-span {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
+        color: var(--primary-text-color);
         font-size: 16px;
-        font-style: normal;
         font-weight: 600;
         line-height: normal;
-        letter-spacing: -0.64px;
+        letter-spacing: -0.04em;
         text-transform: uppercase;
     }
 
     .icon-arrow {
         flex-shrink: 0;
-        fill: var(--yellow, #ECD979);
+        fill: var(--accent-text-color);
     }
 
     .icon-star-container {
@@ -502,7 +448,7 @@
     .icon-star {
         width: 52px;
         height: 51px;
-        fill: var(--yellow);
+        fill: var(--accent-text-color);
         display: block;
         margin: 0 auto 16px;
     }
@@ -511,12 +457,10 @@
         width: 115px;
         color: rgba(252, 249, 249, 0.40);
         text-align: center;
-        font-family: Manrope;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: normal;
-        letter-spacing: -0.64px;
+        letter-spacing: -0.04em;
     }
 
     .hero-ukraine-map {
