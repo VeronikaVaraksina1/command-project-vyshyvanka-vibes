@@ -19,8 +19,9 @@
     />
 
     
-    <script type="module" crossorigin src="/command-project-vyshyvanka-vibes/assets/index-9e4b41a4.js"></script>
-    <link rel="stylesheet" href="/command-project-vyshyvanka-vibes/assets/index-5daf1ba9.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" crossorigin src="/command-project-vyshyvanka-vibes/assets/index-84f7f776.js"></script>
+    <link rel="stylesheet" href="/command-project-vyshyvanka-vibes/assets/index-c7319edb.css">
   </head>
   <body>
     <header class="header-container">
@@ -77,13 +78,13 @@
           </a>
         </li>
       </ul>
-      <button class="burger-menu" type="button" data-menu-open>
+      <button class="burger-menu js-open-menu" type="button">
         <svg class="icon" width="36" height="24">
           <use href="/command-project-vyshyvanka-vibes/assets/icons-ce3714a1.svg#icon-nav"></use>
         </svg>
       </button>
 
-      <div class="hidden-menu is-hidden" data-menu>
+      <div class="hidden-menu is-hidden js-menu-container" modal-open>
         <div class="hidden-menu-container">
           <div class="mobile-menu-top">
             <address class="burger-address-container">
@@ -91,21 +92,21 @@
                 >+380 (68) 443-94-26</a
               >
             </address>
-            <button class="burger-close-btn" type="button" data-menu-close>
+            <button class="burger-close-btn js-close-menu" type="button">
               <span class="close-icon"></span>
             </button>
           </div>
           <nav class="burger-nav-menu">
             <ul class="burger-nav-list">
-              <li><a href="#about-us" class="burger-nav-link">About us</a></li>
+              <li><a href="#about-us" class="burger-nav-link menu-box-link">About us</a></li>
               <li>
-                <a href="#collection" class="burger-nav-link">Our collection</a>
+                <a href="#collection" class="burger-nav-link menu-box-link">Our collection</a>
               </li>
               <li>
-                <a href="#your-order" class="burger-nav-link">Customer order</a>
+                <a href="#your-order" class="burger-nav-link menu-box-link">Customer order</a>
               </li>
               <li>
-                <a href="#testimonials" class="burger-nav-link">Testimonials</a>
+                <a href="#testimonials" class="burger-nav-link menu-box-link">Testimonials</a>
               </li>
             </ul>
           </nav>
@@ -294,7 +295,7 @@
         <span class="your-order-title-text">Your order</span> is our priority:
         Personalized approach and quality of service
       </h2>
-      <form class="your-order-form" name="Order form">
+      <form class="your-order-form" name="Order form" data-aos="fade-up-left">
         <label class="order-form-label" for="user-name">
           <input
             class="order-form-input"
@@ -437,7 +438,10 @@
   </div>
 </footer>
 
-
+    
+    
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     
   </body>
 </html>
