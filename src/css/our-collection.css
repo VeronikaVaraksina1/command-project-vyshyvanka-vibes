@@ -71,6 +71,10 @@
     transform: scale(1.05);
 }
 
+.container-card {
+    padding-top: 18px;
+}
+
 .card-title {
     font-size: 14px;
     font-weight: 500;
@@ -80,8 +84,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-top: 18px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
 
 .card-text {
