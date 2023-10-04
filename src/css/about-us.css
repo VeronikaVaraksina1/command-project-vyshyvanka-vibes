@@ -18,7 +18,7 @@
   .about-text:first-of-type {
     margin-bottom: 20px;
   }
-  .about-text:last-of-type {
+  .about-block-text {
     margin-bottom: 50px;
   }
   @media screen and (min-width: 375px) {
@@ -59,7 +59,7 @@
     .about-text:first-of-type {
       margin-bottom: 20px;
     }
-    .about-text:last-of-type {
+    .about-block-text {
       margin-bottom: 40px;
     }
   }
@@ -82,7 +82,7 @@
       width: 385px;
       background-image: url(../img/about/about-bg-desktop.png);
     }
-    .about-text:last-of-type {
+    .about-block-text {
       margin-bottom: 0;
     }
     .about-text {

@@ -41,6 +41,7 @@
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
+    outline: transparent;
     line-height: 1.37;
     letter-spacing: -0.04em;
     margin: 20px auto 40px;
