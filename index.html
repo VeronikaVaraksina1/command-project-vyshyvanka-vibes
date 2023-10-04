@@ -23,8 +23,8 @@
 
     
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script type="module" crossorigin src="/command-project-vyshyvanka-vibes/assets/index-b6d5e0b1.js"></script>
-    <link rel="stylesheet" href="/command-project-vyshyvanka-vibes/assets/index-eb395adf.css">
+    <script type="module" crossorigin src="/command-project-vyshyvanka-vibes/assets/index-6601b60f.js"></script>
+    <link rel="stylesheet" href="/command-project-vyshyvanka-vibes/assets/index-d4ed66aa.css">
   </head>
   <body>
     <header class="header-container">
@@ -81,7 +81,11 @@
           </a>
         </li>
       </ul>
-      <button class="burger-menu js-open-menu" type="button">
+      <button
+        class="burger-menu js-open-menu"
+        name="burger-button"
+        type="button"
+      >
         <svg class="icon" width="36" height="24">
           <use href="/command-project-vyshyvanka-vibes/assets/icons-ce3714a1.svg#icon-nav"></use>
         </svg>
@@ -101,15 +105,25 @@
           </div>
           <nav class="burger-nav-menu">
             <ul class="burger-nav-list">
-              <li><a href="#about-us" class="burger-nav-link menu-box-link">About us</a></li>
               <li>
-                <a href="#collection" class="burger-nav-link menu-box-link">Our collection</a>
+                <a href="#about-us" class="burger-nav-link menu-box-link"
+                  >About us</a
+                >
               </li>
               <li>
-                <a href="#your-order" class="burger-nav-link menu-box-link">Customer order</a>
+                <a href="#collection" class="burger-nav-link menu-box-link"
+                  >Our collection</a
+                >
               </li>
               <li>
-                <a href="#testimonials" class="burger-nav-link menu-box-link">Testimonials</a>
+                <a href="#your-order" class="burger-nav-link menu-box-link"
+                  >Customer order</a
+                >
+              </li>
+              <li>
+                <a href="#testimonials" class="burger-nav-link menu-box-link"
+                  >Testimonials</a
+                >
               </li>
             </ul>
           </nav>
@@ -126,7 +140,7 @@
   <div class="container hero-container">
     <img
       class="hero-girl"
-      srcset="/command-project-vyshyvanka-vibes/assets/girl-desktop-38bde192.jpg 392w, /command-project-vyshyvanka-vibes/assets/girl-desktop@2x-d0d7ef1a.jpg 784w, /command-project-vyshyvanka-vibes/assets/girl-tablet-21aa1eb1.jpg 413w, /command-project-vyshyvanka-vibes/assets/girl-tablet@2x-53c0672b.jpg 826w, /command-project-vyshyvanka-vibes/assets/girl-mobile-f783b2a7.jpg 335w, /command-project-vyshyvanka-vibes/assets/girl-mobile-f783b2a7.jpg 670w"
+      srcset="/command-project-vyshyvanka-vibes/assets/girl-desktop-38bde192.jpg 392w, /command-project-vyshyvanka-vibes/assets/girl-desktop@2x-d0d7ef1a.jpg 784w, /command-project-vyshyvanka-vibes/assets/girl-tablet-21aa1eb1.jpg 413w, /command-project-vyshyvanka-vibes/assets/girl-tablet@2x-53c0672b.jpg 826w, /command-project-vyshyvanka-vibes/assets/girl-mobile-f783b2a7.jpg 335w, /command-project-vyshyvanka-vibes/assets/girl-mobile@2x-182f9c0e.jpg 670w"
       sizes="(min-width:1280px) 392px, (min-width: 768px) 413px, (min-width: 375px) 335px"
       src="/command-project-vyshyvanka-vibes/assets/girl-desktop-38bde192.jpg"
       alt="girl with vyshyvanka"
@@ -294,7 +308,7 @@
       <section id="your-order" class="your-order section">
   <div class="order-image"></div>
   <div class="container">
-    <div>
+    <div class="your-order-form-container">
       <h2 class="your-order-title">
         <span class="your-order-title-text">Your order</span> is our priority:
         Personalized approach and quality of service
