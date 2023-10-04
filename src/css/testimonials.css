@@ -39,6 +39,12 @@
 .staff-block:hover .staff-title {
   color: var(--accent-text-color);
 }
+.staff-block img {
+  transition: transform 1.6s;
+}
+.staff-block:hover img {
+  transform: translate(-50%, 0%);
+}
 .staff-block:nth-child(2n),
 .staff-block:last-of-type {
   display: none;
