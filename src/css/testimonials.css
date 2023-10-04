@@ -35,9 +35,35 @@
 }
 .staff-block:hover {
   border-color: var(--accent-text-color);
+  -webkit-box-shadow: 0px 0px 30px 7px rgba(236,217,121,0.15);
+  -moz-box-shadow: 0px 0px 30px 7px rgba(236,217,121,0.15);
+  box-shadow: 0px 0px 30px 7px rgba(236,217,121,0.15);
 }
 .staff-block:hover .staff-title {
   color: var(--accent-text-color);
+}
+.staff-block img {
+  transition: 0.7s;
+}
+.staff-block:hover img {
+  transform: translate(-50%, -15%);
+  width: 72px;
+}
+.staff-block:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: scale(0);
+  top: 85px;
+  height: 1px;
+  background-color: #ecd979; 
+  border-radius: 2px;
+  width: 100%;
+  transition: transform 300ms linear;
+}
+.staff-block:hover:after, 
+.staff-block:focus:after {
+    transform: scale(1);
 }
 .staff-block:nth-child(2n),
 .staff-block:last-of-type {
