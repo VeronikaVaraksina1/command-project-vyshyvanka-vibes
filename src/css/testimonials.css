@@ -49,6 +49,24 @@
   transform: translate(-50%, -15%);
   width: 72px;
 }
+.staff-block:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  /* opacity: 0; */
+  transform: scale(0);
+  top: 85px;
+  height: 1px;
+  background-color: #ecd979; 
+  border-radius: 2px;
+  width: 100%;
+  transition: transform 300ms linear;
+}
+.staff-block:hover:after, 
+.staff-block:focus:after {
+    /* opacity: 1; */
+    transform: scale(1);
+}
 .staff-block:nth-child(2n),
 .staff-block:last-of-type {
   display: none;
