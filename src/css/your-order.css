@@ -158,13 +158,14 @@
   .your-goods-image {
     display: block;
     border-radius: 4px;
+    margin-left: auto;
   }
 
   .ornamental-image {
     position: absolute;
     left: -98px;
     bottom: -79px;
-    width: 324px;
+    width: 323px;
     height: 484px;
     background-image: url(../img/your-order/ornamental-image/form-bg-tablet.png);
     background-repeat: no-repeat;
@@ -180,6 +181,7 @@
 
   .ornamental-image {
     background-image: url(../img/your-order/ornamental-image/form-bg-tablet@2x.png);
+    background-size: 323px 484px;
   }
 }
 
@@ -209,8 +211,8 @@
     top: 156px;
     left: -100px;
     bottom: -119px;
-    width: 524px;
-    height: 521px;
+    width: 289px;
+    height: 484px;
     background-image: url(../img/your-order/ornamental-image/form-bg-desktop.png);
   }
 }
@@ -223,6 +225,7 @@
   }
   .ornamental-image {
     background-image: url(../img/your-order/ornamental-image/form-bg-desktop@2x.png);
+    background-size:289px 484px;
   }
 }
 
@@ -253,5 +256,6 @@
 
   .ornamental-image {
     background-image: url(../img/your-order/ornamental-image/form-bg-large-desktop@2x.png);
+    background-size: 325px 484px;
   }
 }
