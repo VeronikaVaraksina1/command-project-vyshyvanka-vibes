@@ -63,12 +63,16 @@
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .collection-card:hover .container-card,
-.collection-card:hover .card-text{
+.collection-card:hover .card-text {
     color: var(--accent-text-color);
-    
 }
+
 .collection-card:hover {
     transform: scale(1.05);
+}
+
+.container-card {
+    padding-top: 18px;
 }
 
 .card-title {
@@ -80,8 +84,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-top: 18px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
 
 .card-text {

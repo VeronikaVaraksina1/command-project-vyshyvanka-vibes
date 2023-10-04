@@ -21,6 +21,12 @@
   visibility: hidden;
   pointer-events: none;
 }
+.is-open{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
 .hidden-menu {
   position: absolute;
   z-index: 999;
@@ -246,12 +252,12 @@
 
   .address-container {
     display: inline-block;
+    margin-right: 20px;
   }
   .address-link {
     display: inline-block;
     padding: 14px 28px;
     border-radius: 15px;
-    margin-right: 20px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     font-size: 14px;
     font-style: normal;
