@@ -40,10 +40,11 @@
   color: var(--accent-text-color);
 }
 .staff-block img {
-  transition: transform 1.6s;
+  transition: 1s;
 }
 .staff-block:hover img {
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, -15%);
+  width: 72px;
 }
 .staff-block:nth-child(2n),
 .staff-block:last-of-type {
