@@ -79,7 +79,7 @@
   padding-bottom: 14px;
 }
 .order-svg-icon {
-  fill:var(--accent-text-color)
+  fill: var(--accent-text-color);
 }
 
 .order-form-send {
@@ -118,7 +118,7 @@
     height: 776px;
   }
 
-  .your-order-form {
+  .your-order-form-container {
     margin-bottom: 100px;
   }
 
@@ -196,6 +196,11 @@
     justify-content: space-between;
     gap: 50px;
   }
+
+  .your-order-form-container {
+    margin-bottom: 0;
+  }
+
   .order-form-send,
   .your-order-form {
     margin-bottom: 0;
