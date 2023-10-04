@@ -21,6 +21,12 @@
   visibility: hidden;
   pointer-events: none;
 }
+.is-open{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
 .hidden-menu {
   position: absolute;
   z-index: 999;
