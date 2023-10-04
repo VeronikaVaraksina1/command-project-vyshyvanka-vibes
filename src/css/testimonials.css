@@ -35,12 +35,15 @@
 }
 .staff-block:hover {
   border-color: var(--accent-text-color);
+  -webkit-box-shadow: 0px 0px 15px 7px rgba(236,217,121,0.2);
+  -moz-box-shadow: 0px 0px 15px 7px rgba(236,217,121,0.2);
+  box-shadow: 0px 0px 15px 7px rgba(236,217,121,0.2);
 }
 .staff-block:hover .staff-title {
   color: var(--accent-text-color);
 }
 .staff-block img {
-  transition: 1s;
+  transition: 0.7s;
 }
 .staff-block:hover img {
   transform: translate(-50%, -15%);
