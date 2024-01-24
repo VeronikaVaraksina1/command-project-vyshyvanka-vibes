@@ -1,7 +1,7 @@
 Командний проєкт "Vyshyvanka Vibes"
 
 Список команди, що працювала над проєктом: Yuliia Shcherban - Header, Nazar
-Pashko - секція "Hero", Maxym Pavliv - секція "About us", Yullia Hosteva -
+Pashko - секція "Hero", Maxym Pavliv - секція "About us", Yuliia Hosteva -
 секція "Our Collection", Владислав Мельник - секція "Your order", Олексій
 Бутузов - секція "Testimonials", Oleksii Yerokhin - Footer
 
